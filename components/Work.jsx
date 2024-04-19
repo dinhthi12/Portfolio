@@ -22,7 +22,7 @@ const projectData = [
   },
   {
     image: "/work/4.png",
-    category: "react js",
+    category: "ruby on rails",
     name: "abc",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     link: "/",
@@ -30,7 +30,7 @@ const projectData = [
   },
   {
     image: "/work/2.png",
-    category: "react js",
+    category: "php",
     name: "abc",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     link: "/",
