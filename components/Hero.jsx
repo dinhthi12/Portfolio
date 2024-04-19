@@ -75,6 +75,7 @@ const Hero = () => {
             <DevImg
               containerStyle="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
               imgSrc="/hero/Remove-bg.ai_1713323394121.png"
+              alt="about me"
             />
           </div>
         </div>
