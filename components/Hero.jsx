@@ -24,10 +24,9 @@ const Hero = () => {
             <div className="text-sm font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer/BrSE
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Nguyen Dinh Thi</h1>
+            <h2 className="h2 mb-4">Hi there 👋, my name is Nguyen Dinh Thi</h2>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief description with insights into myself, my vocational
-              journey, and what I engage in professionally.
+            🌱 I'm working hard to update my skills to become a Bridge Software Engineer.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
