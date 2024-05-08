@@ -31,7 +31,7 @@ const infoData = [
   },
   {
     icon: <GraduationCap size={20} />,
-    text: "Master on Computer Science",
+    text: "Bachelor of Science",
   },
   {
     icon: <HomeIcon size={20} />,
@@ -46,7 +46,7 @@ const qualificationData = [
       {
         university: "Ha Noi Open University",
         qualification: "Bachelor of Science",
-        years: "2024 - Present",
+        years: "Graduated",
       },
     ],
   },
@@ -60,8 +60,8 @@ const qualificationData = [
       },
       {
         company: "Raven Games Corp",
-        role: "Backend developer (PHP - Magento 2)",
-        years: "12/2023 - 05/2024",
+        role: "Backend developer (Rails - ReactJS)",
+        years: "11/2023 - 04/2024",
       },
     ],
   },
@@ -72,16 +72,10 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS3",
+        name: "Front-end: Next JS, Tailwind CSS, React JS, Typescript, Javascript",
       },
       {
-        name: "Front-end Development",
-      },
-      {
-        name: "Javascript, PHP",
-      },
-      {
-        name: "Back-end Development",
+        name: "Back-end: Ruby, Ruby on rails, PostgreSQL",
       },
     ],
   },
@@ -89,13 +83,16 @@ const skillData = [
     title: "tools",
     data: [
       {
-        imgPath: "/about/vscode.svg",
+        imgPath: "/about/vscode-svgrepo-com.svg",
       },
       {
-        imgPath: "/about/ruby.svg",
+        imgPath: "/about/ruby-svgrepo-com.svg",
       },
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/pgadmin.svg",
+      },
+      {
+        imgPath: "/about/ubuntu-svgrepo-com.svg",
       },
     ],
   },
@@ -146,12 +143,12 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Unmatched Service Quality for Over 10 Years
+                      Personal goals for the long-term
                     </h3>
                     <p className="subtitle max-w-xl max-auto xl:mx-0">
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engaging
-                      user experiences.
+                      In the future, I will become a comprehensive
+                      Vietnamese-Japanese Bridge System Engineer, bringing
+                      efficiency to projects.
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -271,7 +268,9 @@ const About = () => {
                                 className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
                                 key={index}
                               >
-                                <div className="font-medium">{name}</div>
+                                <div className="text-base font-medium">
+                                  {name}
+                                </div>
                               </div>
                             );
                           }

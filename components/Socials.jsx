@@ -14,23 +14,23 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: "/",
+    path: "https://www.facebook.com/profile.php?id=100025230006086",
     name: <RiFacebookFill />,
   },
   {
-    path: "/",
+    path: "https://www.youtube.com/channel/UCK9nL1AikfpMvRTwed0NDxQ",
     name: <RiYoutubeFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/dinhthi12",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/nguyen-dinh-thi-819471214/",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://leetcode.com/u/dinhthi12/",
     name: <SiLeetcode />,
   },
 ];

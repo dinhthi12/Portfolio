@@ -15,10 +15,8 @@ const contact = () => {
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
 
             <p className="subtitle max-w-[400px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              ducimus voluptas esse non consequuntur dolorem quidem aliquam
-              magnam sapiente reiciendis earum, voluptatem debitis nam
-              temporibus suscipit. Est rerum eligendi quas.
+              The more effectively your people work together, the more effective
+              your organization will be at achieving its objectives and goals.
             </p>
           </div>
           <div className="hidden xl:flex w-full bg-contact_illustration_light dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div>
@@ -31,11 +29,11 @@ const contact = () => {
             </div>
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>thi884641@gmail.com</div>
+              <div>Lien Chieu, Da Nang City</div>
             </div>
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>thi884641@gmail.com</div>
+              <div>+84 796692773</div>
             </div>
           </div>
           <Form />

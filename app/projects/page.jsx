@@ -6,42 +6,37 @@ import { TabsContent } from "@radix-ui/react-tabs";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/249426261-a04bdcf1-4f61-471f-9b96-a4777dc272a4.png",
+    category: "ruby on Rails",
+    name: "Football Field Management",
+    description:
+      "Software for field booking management and soccer field payment for investors.",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/Screenshot from 2024-05-08 16-53-15.png",
+    category: "Rails and react js",
+    name: "Ziu Shop",
+    description: "E-commerce website specializing in clothing accessories.",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/Screenshot from 2024-05-08 16-56-09.png",
     category: "react js",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    name: "Camera Website",
+    description:
+      "Website advertising distribution channels for cameras and accompanying equipment.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "ruby on rails",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "php",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "react js",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "react js",
-    name: "abcd",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    image: "/work/Screenshot from 2024-05-08 16-44-35.png",
+    category: "Rails and react js",
+    name: "Manage personal tasks",
+    description:
+      "Software for managing personalization tasks and statistical data.",
     link: "/",
     github: "/",
   },

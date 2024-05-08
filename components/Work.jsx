@@ -13,42 +13,37 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/249426261-a04bdcf1-4f61-471f-9b96-a4777dc272a4.png",
+    category: "ruby on Rails",
+    name: "Football Field Management",
+    description:
+      "Software for field booking management and soccer field payment for investors.",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/Screenshot from 2024-05-08 16-53-15.png",
+    category: "Rails and react js",
+    name: "Ziu Shop",
+    description: "E-commerce website specializing in clothing accessories.",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/Screenshot from 2024-05-08 16-56-09.png",
     category: "react js",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    name: "Camera Website",
+    description:
+      "Website advertising distribution channels for cameras and accompanying equipment.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "ruby on rails",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "php",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "react js",
-    name: "abc",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "react js",
-    name: "abcd",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    image: "/work/Screenshot from 2024-05-08 16-44-35.png",
+    category: "Rails and react js",
+    name: "Manage personal tasks",
+    description:
+      "Software for managing personalization tasks and statistical data.",
     link: "/",
     github: "/",
   },
@@ -61,10 +56,8 @@ const Work = () => {
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            magni ipsum officia fugiat explicabo, eligendi vitae exercitationem
-            cumque aliquam deleniti, voluptatibus facere quae eum. Inventore
-            officiis provident incidunt laborum eos.
+            Projects I have participated in and contributed to with the
+            development team in recent times.
           </p>
           <Link href="/projects">
             <Button>All Project</Button>

@@ -11,19 +11,18 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Design",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Web Development",
+    description: "Willing to learn new technology.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "Web Design",
-    description: "Lorem ipsum",
+    title: "Web Development",
+    description: "Make awesome things that matter.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "Web Design",
-    description: "Lorem ipsum",
+    title: "WASSHOI",
+    description: "一緒にやりましょう",
   },
 ];
 
@@ -32,7 +31,7 @@ const Service = () => {
     <section className="mb-12 xl:mb-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
-          My Services
+          My Impression
         </h2>
         {/* grid items */}
         <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
