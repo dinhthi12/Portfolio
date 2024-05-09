@@ -7,8 +7,8 @@ import { Download } from 'lucide-react';
 const DownloadButton = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/CV.pdf'; // Update the path as needed
-    link.setAttribute('download', 'CV.pdf');
+    link.href = '/BACKEND DEVELOPER_ NGUYEN DINH THI.pdf'; // Update the path as needed
+    link.setAttribute('download', 'BACKEND DEVELOPER_ NGUYEN DINH THI.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

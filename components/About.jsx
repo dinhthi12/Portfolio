@@ -94,6 +94,9 @@ const skillData = [
       {
         imgPath: "/about/ubuntu-svgrepo-com.svg",
       },
+      {
+        imgPath: "/about/postman-icon-svgrepo-com.svg",
+      },
     ],
   },
 ];
