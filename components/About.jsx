@@ -44,9 +44,14 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        university: "Ha Noi Open University",
-        qualification: "Bachelor of Science",
-        years: "Graduated",
+        university: "FPT College",
+        qualification: "Majoring in software engineering",
+        years: "02/2024 - Present",
+      },
+      {
+        university: "Ha Noi Open University (HOU)",
+        qualification: "Majoring in software engineering",
+        years: "02/2024 - Present",
       },
     ],
   },
